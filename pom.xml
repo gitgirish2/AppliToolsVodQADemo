@@ -50,18 +50,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.applitools</groupId>
-                <artifactId>eyes-selenium-java3</artifactId>
-                <version>3.29</version>
-            </dependency>
-
-            <dependency>
-                <groupId>com.applitools</groupId>
-                <artifactId>eyes-images-java3</artifactId>
-                <version>3.29</version>
-            </dependency>
-
-            <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>

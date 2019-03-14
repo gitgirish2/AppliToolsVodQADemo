@@ -16,7 +16,6 @@ public class VodQATest extends BaseTest {
         System.out.println(driver.getTitle());
         homePage = new HomePage();
         Assert.assertEquals(homePage.getTheme(),"Seismic Shifts");
-        validateWindow("vodQA", "verifyThemeTest");
     }
 
     @Test
@@ -26,7 +25,6 @@ public class VodQATest extends BaseTest {
         homePage = new HomePage();
         homePage.clickSubmitTalkButton();
         Assert.assertEquals(homePage.getSubmitTalkLink(),"http://localhost:5454/#");
-        validateWindow("vodQA", "verifySubmitLinkTest");
     }
 
     @Test
@@ -36,7 +34,6 @@ public class VodQATest extends BaseTest {
         homePage = new HomePage();
         homePage.clickContact();
         Assert.assertEquals(homePage.getParticipateLink(),"https://goo.gl/forms/wJg5zpvwgb7Ckdes1");
-        validateWindow("vodQA", "verifyParticipateLinkTest");
     }
 
 }

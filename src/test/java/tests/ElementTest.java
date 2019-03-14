@@ -15,8 +15,6 @@ public class ElementTest extends BaseTest {
         driver.get(Config.URL);
         System.out.println(driver.getTitle());
         homePage = new HomePage();
-        eyes.open(driver, "vodQA", "verifyElementTest");
-        eyes.checkElement(driver.findElement(By.className("submit-talk")));
         Assert.assertEquals(homePage.getSubmitTalkLink(),Config.URL+"#");
     }
 }
